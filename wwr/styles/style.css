@@ -1,31 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-nav a { 
+nav a {
     text-align: center;
-    color: #647D7A;
+    color: #141515;
     text-decoration: none;
+    padding: 35px;
+    text-align: center;
 }
 
 #hero-box {
     text-align: center;
-    ;
+    padding: 35px;
 }
 
 
-#hero-msg h1, #hero-msg h4{
+#hero-msg h1,
+#hero-msg h4 {
     text-align: center;
     color: #647D7A;
 }
 
-.button-box{
+.button-box {
     text-align: center;
-    color: #647D7A;   
+    color: #647D7A;
+    margin-bottom: 100px;
 }
 
-main section{
+
+main section {
     text-align: center;
 }
 
@@ -34,61 +42,90 @@ main section{
 }
 
 body {
-    background-color: #CDD7D6
-    
+    background-color: #CDD7D6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
 }
 
 header {
-    background-color: #647D7A/
+    background-color:  #3A78CF;
+    ;
 }
 
-nav a:hover{ background-color: #3A78CF;
+nav a:hover {
+    background-color: #3A78CF;
     color: #647D7A;
 
 }
 
 
-.book, .join{
+.book,
+.join {
     background-color: #7700B3;
     color: #647D7A;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 15px 30px;
 }
-.book:hover, .join:hover{
-    background-color:#3A78CF;
-    color: #647D7A;
-}
-#background{
-    background-color:#647D7A
-}
-.msg{
-    background-color:#3A78CF
-}
-footer{
-    background-color:#CDD7D6;
+
+.book:hover,
+.join:hover {
+    background-color: #3A78CF;
     color: #647D7A;
 }
 
-.msg p{
+#background {
+    background-color: #647D7A
+}
+
+.msg {
+    background-color: #3A78CF
+}
+
+footer {
+    background-color:  #3A78CF;
     color: #141515;
 }
-footer a{
-    color: #647D7A;
+
+.msg p {
+    color: #141515;
+    font-size: .8em;
+}
+
+footer a {
+    color: #141515;
     text-decoration: none;
 }
-.msg h2{
+
+.msg h2 {
     color: #151716;
 }
-footer a:hover{
-    color: #647D7A;
-}
-h4{
-    color: #647D7A;
-}
-.home-title{
+
+footer a:hover {
     color: #647D7A;
 }
 
-.logo{ width: 50px;
+h4 {
+    color: #647D7A;
+}
+
+.home-title {
+    color: #647D7A;
+    font-size: 2em;
+    margin-top: 10px;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+
+
+
+}
+
+.logo {
+    width: 50px;
 
 }
 
@@ -98,10 +135,27 @@ h4{
 
 footer p {
     font-size: 1.2em;
-}   
+}
 
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: underlin;
+}
+
+.river-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+footer {
+    margin-top: 200px;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
 }
 
 
+main section img {
+    box-sizing: border-box;
+}
