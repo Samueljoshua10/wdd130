@@ -40,10 +40,9 @@ h4{text-align: center;
 }
 
 
-#content { border: 1px solid rgb(124, 152, 177);
-    text-align: center;
+#content {
     margin: 0 auto;
-    width: 1000px;
+    max-width: 1600px;
 }
 
 
@@ -101,7 +100,7 @@ h2{ margin: 0;
     border: 10px solid #00afb9;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
-    width: 80%;
+    width: 100%;
 
 }
 
@@ -167,7 +166,7 @@ footer .social img{
     height: 10;
 }
 
-#hero-img{width: 100;
+#hero-img{width: 100%;
 }
 
 #hero{display: grid;
